@@ -22,15 +22,11 @@ $glitch-font: monospace;
         .glitch-top-text-1 {
             color: $glitch-color-1;
             position: relative;
-            // top: 4px;
-            // left: 4px;
             animation: glitch-top-text-1 $delay alternate infinite;
         }
         .glitch-top-text-2 {
             color: $glitch-color-2;
             position: relative;
-            // top: calc(-200% - 4px);
-            // left: -4px;
             animation: glitch-top-text-2 $delay alternate infinite;
         }
         .glitch-top-text-3 {
@@ -52,15 +48,11 @@ $glitch-font: monospace;
         .glitch-bottom-text-1 {
             color: $glitch-color-1;
             position: relative;
-            // top: calc( -100% + 4px);
-            // left: 4px;
             animation: glitch-bottom-text-1 $delay alternate infinite;
         }
         .glitch-bottom-text-2 {
             color: $glitch-color-2;
             position: relative;
-            // top: calc(-300% - 4px);
-            // left: -4px;
             animation: glitch-bottom-text-2 $delay alternate infinite;
         }
         .glitch-bottom-text-3 {
@@ -80,10 +72,6 @@ $glitch-font: monospace;
 }
 @keyframes glitch-bottom {
     0% { top: 0; left: 0; }
-    // 39% { top: 0; left: 0; opacity: 100%;}
-    // 40% { top: 0; left: 0; opacity: 0%;}
-    // 49% { top: 0; left: 0; opacity: 0%;}
-    // 50% { top: 0; left: 0; opacity: 100%;}
     89% { top: 0; left: 0; }
     90% { top: 0; left: -4px; }
     100% { top: 0; left: -4px; }
